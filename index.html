@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nelfavie</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="imgs/I.N wifey.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Gradient Background -->
+    <div class="gradient-bg">
+        <div class="gradient-1"></div>
+        <div class="gradient-2"></div>
+        <div class="gradient-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-logo">Nelfavie</div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#work">Work</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Creative<br>Designer & Developer</h1>
+            <p>Turning ideas into beautiful digital experiences</p>
+            <div class="cta-buttons">
+                <a href="#work" class="primary-btn">View Work</a>
+                <a href="#contact" class="secondary-btn">Get in Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p>Scroll to explore</p>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="work">
+        <h2 class="section-title" data-aos="fade-up">Featured Work</h2>
+        <div class="work-grid">
+            <div class="work-card glass-card" data-aos="fade-up">
+                <div class="work-image">
+                    <img src="imgs/jimin.png"alt="Project 1">
+                </div>
+                <div class="work-info">
+                    <h3>Nellog</h3>
+                    <p>Web Development</p>
+                    <a href="https://dev-nel.github.io/Nellog/" class="learn-more">Learn More →</a>
+                </div>
+            </div>
+            <p>Still in progress on some solo projects.</p>
+        </div>            
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content glass-card" data-aos="fade-up">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I'm a passionate designer and developer focused on creating beautiful, intuitive digital experiences. With expertise in modern web technologies and design principles, I bring ideas to life through clean code and creative solutions.</p>
+                <div class="skills">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">UI/UX</span>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="imgs/fotor-ai-20250102223129.jpg" alt="Profile">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title" data-aos="fade-up">Get in Touch</h2>
+        <div class="contact-container glass-card" data-aos="fade-up">
+                <form action="https://formsubmit.co/your@email.com" method="POST" class="contact-form">
+                <div class="input-group">
+                    <input type="text" name="name" required>
+                    <label>Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" name="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-group">
+                    <textarea required name="message"></textarea>
+                    <label>Message</label>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
