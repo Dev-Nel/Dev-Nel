@@ -1,0 +1,61 @@
+<!-- Work Section -->
+<section id="work" class="work">
+    <h2 class="section-title" data-aos="fade-up">Featured Work</h2>
+    <div class="work-grid">
+        <div class="work-card glass-card" data-aos="fade-up">
+            <div class="work-image">
+                <img src="imgs/jimin.png" alt="Project 1">
+            </div>
+            <div class="work-info">
+                <h3>Nellog</h3>
+                <p>Web Development</p>
+                <a href="https://dev-nel.github.io/Nellog/" class="learn-more">Learn More →</a>
+            </div>
+        </div>
+
+        <div class="work-card glass-card" data-aos="fade-up">
+            <div class="work-image">
+                <img src="Opera Snapshot_2025-01-04_124827_www.figma.com (1).png" alt="Project 2">
+            </div>
+            <div class="work-info">
+                <h3>Artsy</h3>
+                <p>Web Design</p>
+                <a href="https://www.figma.com/proto/ysqUtOpx9xcXFyOw0WqCqr/Art-gallery-app-UI-(Community)?node-id=8-20&t=0ZABy4UjM4vJgiUk-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=8%3A20" class="learn-more">Learn More →</a>
+            </div>
+        </div>
+
+        <div class="work-card glass-card" data-aos="fade-up">
+            <div class="work-image">
+                <img src="HEY JIMIN IMMA GET YA REAL GOOD AND I BET YAAA OMG.png" alt="Project 3">
+            </div>
+            <div class="work-info">
+                <h3>Nelfavie's Simple Jewelry</h3>
+                <p>Web Development</p>
+                <a href="https://nels-jewelry.vercel.app/index.html" class="learn-more">Learn More →</a>
+            </div>
+        </div>
+
+        <div class="work-card glass-card" data-aos="fade-up">
+            <div class="work-image">
+                <img src="lalalala.png" alt="Project 4">
+            </div>
+            <div class="work-info">
+                <h3>Poem Generator</h3>
+                <p>Web Development</p>
+                <a href="https://poem-generator-rho.vercel.app" class="learn-more">Learn More →</a>
+            </div>
+        </div>
+
+        <div class="work-card glass-card" data-aos="fade-up">
+            <div class="work-image">
+                <img src="Opera Snapshot_2025-01-09_085410_dare-to-play-flax.vercel.app" alt="Project 5">
+            </div>
+            <div class="work-info">
+                <h3>Truth or Dare</h3>
+                <p>Web Development</p>
+                <a href="https://dare-to-play-flax.vercel.app" class="learn-more">Learn More →</a>
+            </div>
+        </div>
+    </div>
+    <p>Still in progress on some solo projects.</p>
+</section>
